@@ -103,6 +103,7 @@ walker talk {
     root {
         take --> node::dialogue_root;
     }
+    
     cai_state {
         if (!question) {
             question = std.input("Question (Ctrl-C to exit)> ");
