@@ -1,4 +1,5 @@
 import {*} with "./faq.jac";
+import {*} with "./ai_model.jac";
 
 node dialogue_root;
 
